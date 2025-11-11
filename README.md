@@ -76,12 +76,6 @@ In the project directory, you can run:
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute it.
-
----
-
 ## ⭐ Acknowledgments
 
 * [Create React App Documentation](https://create-react-app.dev/)
