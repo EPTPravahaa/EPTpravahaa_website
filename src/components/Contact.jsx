@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Contact.css";
 import { Phone, Mail, MapPin } from "react-feather";
-import LoginForm from "./Navbar/LoginForm";
+// import LoginForm from "./Navbar/LoginForm";
 
 function Contact() {
   const handlePhoneClick = (e) => {
@@ -47,13 +47,13 @@ function Contact() {
             </li>
             <li className="info-item">
               <a
-                href="mailto:edupravahaa@gmail.com?subject=Inquiry%20from%20Website"
+                href="mailto:eptpavahaa@gmail.com?subject=Inquiry%20from%20Website"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="info-link"
               >
                 <Mail className="info-icon" />
-                <span>edupravahaa@gmail.com</span>
+                <span>eptpavahaa@gmail.com</span>
               </a>
             </li>
             <li className="info-item" onClick={handleLocationClick}>

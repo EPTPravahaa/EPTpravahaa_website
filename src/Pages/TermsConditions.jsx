@@ -73,7 +73,7 @@ function TermsConditions() {
         <>
           <p>For questions or concerns regarding these Terms and Conditions, please contact us:</p>
           <ul>
-            <li><strong>Email:</strong> <a href="mailto:edupravahaa@gmail.com">edupravahaa@gmail.com</a></li>
+            <li><strong>Email:</strong> <a href="mailto:eptpavahaa@gmail.com">eptpavahaa@gmail.com</a></li>
             <li><strong>Phone:</strong> +91 9100241284</li>
             <li><strong>Address:</strong> EPT Towers, 201, Plot No. 658, Road No. 36, Ayyappa Society, Madhapur, Hyderabad, Telangana 500081</li>
           </ul>

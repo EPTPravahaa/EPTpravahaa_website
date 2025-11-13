@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Product.css";
-import edupravahaa from "../assets/images/studentbook.png";
+import edupravahaa from "../assets/images/traning.jpg";
 import { CheckCircle } from "react-feather";
 
 function EDUPravahaa() {

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import GetStartedSection from '../components/GetStartedSection';
 import Navbar from '../components/Navbar';
 // import Courses from '../components/Courses';
-import Slide from '../components/Slide';
+// import Slide from '../components/Slide';
 import ClientsSection from '../components/ClientsSection';
 import Contact from '../components/Contact';
 import BackToTop from '../components/BackToTop';
@@ -29,7 +29,7 @@ function Routers() {
           element={
             <>
               <Banner />
-              <Slide />
+              {/* <Slide /> */}
               <FeatureSection />
               {/* <Courses /> */}
               <ClientsSection />

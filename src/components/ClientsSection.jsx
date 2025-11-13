@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles/ClientsSection.css";
-import { User, Users, BarChart2, Video, Smartphone, BookOpen, FileText, Play } from "react-feather";
+import { User, Users, BarChart2, Video, Smartphone, Play } from "react-feather";
 
 import rudraRides from "../assets/images/rudra.png";
 import edupravahaa from "../assets/images/Edupravahaa.png";
 
 const productsData = [
   {
-    name: "Rudra Rides",
+    name: "Rudra Ride",
     logo: rudraRides,
-    description: `Rudra Rides is a cutting-edge mobility platform that offers seamless ride solutions. 
+    description: `Rudra Ride is a cutting-edge mobility platform that offers seamless ride solutions. 
       Designed for convenience and safety, it connects riders with reliable transportation services for a smooth journey.`,
     features: [
       { icon: <Smartphone />, text: "Easy Booking – Request a ride through our intuitive mobile app." },

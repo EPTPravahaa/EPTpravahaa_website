@@ -56,7 +56,7 @@ function PrivacyPolicy() {
       title: "Your Privacy Choices",
       content: (
         <p>
-          You can request access, correction, or deletion of your personal data anytime at <strong>edupravahaa@gmail.com</strong>. 
+          You can request access, correction, or deletion of your personal data anytime at <strong>eptpavahaa@gmail.com</strong>. 
           Opt-out of marketing communications is also available.
         </p>
       ),
@@ -68,7 +68,7 @@ function PrivacyPolicy() {
         <p>
           <strong>EPTPRAVAHAA EDU TECH SOLUTIONS</strong><br />
           EPT Towers, Ayyappa Society, Madhapur, Hyderabad, Telangana, India<br />
-          <a href="mailto:edupravahaa@gmail.com">edupravahaa@gmail.com</a>
+          <a href="mailto:eptpavahaa@gmail.com">eptpavahaa@gmail.com</a>
         </p>
       ),
     },

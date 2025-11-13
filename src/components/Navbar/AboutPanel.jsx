@@ -2,8 +2,8 @@ import React from "react";
 import "../../styles/Navbar/AboutPanel.css";
 import { Users, Award, Cpu, Globe } from "react-feather";
 import { useNavigate } from "react-router-dom"; 
-import RudraImg from "../../assets/images/Educationimage1.png";
-import EdupravahaaImg from "../../assets/images/Educationimage1.png";
+// import RudraImg from "../../assets/images/Educationimage1.png";
+// import EdupravahaaImg from "../../assets/images/Educationimage1.png";
 
 const AboutPanel = () => {
   const navigate = useNavigate();
@@ -22,7 +22,7 @@ const AboutPanel = () => {
       <section className="hero-section">
         <div className="hero-text">
           <h1>
-            Empowering India with <span>Rudra Rides</span> & <span>Edupravahaa</span>
+            Empowering India with <span>Rudra Ride</span> & <span>Edupravahaa</span>
           </h1>
           <p className="tagline">Innovating mobility and education solutions for a smarter, faster, and brighter India.</p>
           <button className="cta-btn" onClick={() => navigate("/contact")}>Get in Touch</button>
@@ -44,11 +44,11 @@ const AboutPanel = () => {
       </section>
 
       {/* Products Section */}
-      <section className="products-section">
+      {/* <section className="products-section">
         <h2 className="section-title">Our Products</h2>
         <div className="products-grid">
           {[ 
-            { img: RudraImg, title: "Rudra Rides", desc: "Revolutionizing urban mobility with smart, safe, and eco-friendly commuting solutions.", link: "/rudra-rides" },
+            { img: RudraImg, title: "Rudra Ride", desc: "Revolutionizing urban mobility with smart, safe, and eco-friendly commuting solutions.", link: "/rudra-rides" },
             { img: EdupravahaaImg, title: "Edupravahaa", desc: "Interactive video-based learning platform designed to make education fun, engaging, and effective.", link: "/edupravahaa" }
           ].map((prod, idx) => (
             <div className="product-card" key={idx}>
@@ -63,7 +63,7 @@ const AboutPanel = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Vision Section */}
       <section className="vision-section">

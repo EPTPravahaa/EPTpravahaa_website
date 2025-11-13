@@ -9,7 +9,7 @@ function Slide() {
         <h1>Empowering Learning & Mobility</h1>
         <p>
           📚 <strong>Edupravahaa</strong> delivers interactive, high-quality video lessons for students, making learning fun, engaging, and accessible anytime, anywhere.  
-          🚗 <strong>Rudra Rides</strong> provides safe, fast, and reliable transportation solutions, ensuring you reach your destination hassle-free.  
+          🚗 <strong>Rudra Ride</strong> provides safe, fast, and reliable transportation solutions, ensuring you reach your destination hassle-free.  
           Together, we <span className="highlight">transform experiences</span> for a smarter and connected future.
         </p>
         {/* <button className="slide-btn">Learn More</button> */}

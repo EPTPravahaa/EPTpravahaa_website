@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
-import { Facebook, Linkedin, Instagram } from "react-feather";
+import { Linkedin, Instagram } from "react-feather";
 import logo from "../assets/images/logo.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -65,7 +65,7 @@ const Footer = () => {
               EDU PRAVAHAA
             </li>
             <li onClick={handlebusinessguider} className="footer-link">
-              RUDRA RIDES
+              Rudra Ride
             </li>
           </ul>
         </div>
@@ -85,7 +85,7 @@ const Footer = () => {
           <h4>Our Platforms</h4>
           <ul>
             <li>LMS Platform</li>
-            <li>Rudra Rides Platform</li>
+            <li>Rudra Ride Platform</li>
           </ul>
         </div>
       </div>

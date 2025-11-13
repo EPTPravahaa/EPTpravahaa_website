@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Rides.css";
 import { FaCar, FaClock, FaCreditCard, FaMapMarkerAlt } from "react-icons/fa";
-import bannerimage3 from "../assets/images/bannerimage3.png";
+import bannerimage3 from "../assets/images/cab.jpg";
 
 function AboutRudraRides() {
   const features = [
@@ -32,7 +32,7 @@ function AboutRudraRides() {
       {/* HERO SECTION */}
       <section className="rides-hero">
         <div className="hero-content">
-          <h1>Rudra Rides</h1>
+          <h1>Rudra Ride</h1>
           <p>
             Your smart, reliable, and secure cab service designed for modern commuting.
             Enjoy comfort, safety, and convenience wherever you go.
@@ -42,7 +42,7 @@ function AboutRudraRides() {
       </button>
         </div>
         <div className="hero-image">
-          <img src={bannerimage3} alt="Rudra Rides Car" />
+          <img src={bannerimage3} alt="Rudra Ride Car" />
         </div>
       </section>
 
@@ -50,7 +50,7 @@ function AboutRudraRides() {
       <section className="rides-about">
         <h2>Your Smart Ride Solution</h2>
         <p>
-          Experience effortless travel with <strong>Rudra Rides</strong>. Whether you're
+          Experience effortless travel with <strong>Rudra Ride</strong>. Whether you're
           heading across town or out of the city, we make every journey smooth, secure,
           and enjoyable. With 24/7 support, real-time tracking, and flexible payment
           options, you're always in control.
@@ -59,7 +59,7 @@ function AboutRudraRides() {
 
       {/* FEATURES SECTION */}
       <section className="rides-features">
-        <h2>Why Choose Rudra Rides?</h2>
+        <h2>Why Choose Rudra Ride?</h2>
         <div className="features-grid">
           {features.map((feature, i) => (
             <div className="feature-card" key={i}>

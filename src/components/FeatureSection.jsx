@@ -16,12 +16,12 @@ const features = [
   {
     icon: <Shield size={32} className="icon-integrity" />,
     title: "Safety & Trust",
-    description: "Rudra Rides ensures secure, reliable, and punctual transport services. Our commitment to safety and transparency builds trust with every journey."
+    description: "Rudra Ride ensures secure, reliable, and punctual transport services. Our commitment to safety and transparency builds trust with every journey."
   },
   {
     icon: <Users size={32} className="icon-customer" />,
     title: "Customer-Centric",
-    description: "We put our users first. Whether it’s learners using Edupravahaa or commuters using Rudra Rides, every decision is made to enhance their experience and satisfaction."
+    description: "We put our users first. Whether it’s learners using Edupravahaa or commuters using Rudra Ride, every decision is made to enhance their experience and satisfaction."
   },
   {
     icon: <Share2 size={32} className="icon-collaboration" />,
@@ -36,7 +36,7 @@ const features = [
   {
     icon: <Globe size={32} className="icon-accessibility" />,
     title: "Accessibility",
-    description: "We make education and transport accessible to all. Edupravahaa delivers learning anytime, anywhere, and Rudra Rides ensures convenient mobility for communities."
+    description: "We make education and transport accessible to all. Edupravahaa delivers learning anytime, anywhere, and Rudra Ride ensures convenient mobility for communities."
   },
   {
     icon: <UserCheck size={32} className="icon-sustainability" />,

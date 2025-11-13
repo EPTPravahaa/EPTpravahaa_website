@@ -1,27 +1,13 @@
 import React from "react";
 import "../../styles/Navbar/ServicesDropdown.css";
-import Webdevelopment from "../../assets/images/Webdevelopment.png";
-import Devops from "../../assets/images/Devops.png";
-import Softwaretesting from "../../assets/images/Softwaretesting.png";
-import Aidatascience from "../../assets/images/Aidatascience.png";
-import Cybersecurity from "../../assets/images/Cybersecurity.png";
+import Webdevelopment from "../../assets/images/web-app.jpg";
+import Devops from "../../assets/images/aws.png";
+import Softwaretesting from "../../assets/images/qa.png";
+// import Aidatascience from "../../assets/images/Aidatascience.png";
+// import Cybersecurity from "../../assets/images/Cybersecurity.png";
 
 function ServicesSection() {
   const services = [
-    {
-      title: "DevOps (AWS)",
-      img: Devops,
-      direction: "left",
-      desc: (
-        <>
-          Streamline your development and deployment with our DevOps services built around AWS.
-          <br />• Cloud architecture & deployment  
-          <br />• CI/CD pipeline setup  
-          <br />• Infrastructure automation  
-          <br />• Continuous monitoring & optimization
-        </>
-      ),
-    },
     {
       title: "Web & Mobile Development",
       img: Webdevelopment,
@@ -33,6 +19,20 @@ function ServicesSection() {
           <br />• React Native for mobile solutions  
           <br />• Python & Node.js for powerful backends  
           <br />• RESTful APIs & integrations
+        </>
+      ),
+    },
+       {
+      title: "DevOps (AWS)",
+      img: Devops,
+      direction: "left",
+      desc: (
+        <>
+          Streamline your development and deployment with our DevOps services built around AWS.
+          <br />• Cloud architecture & deployment  
+          <br />• CI/CD pipeline setup  
+          <br />• Infrastructure automation  
+          <br />• Continuous monitoring & optimization
         </>
       ),
     },
