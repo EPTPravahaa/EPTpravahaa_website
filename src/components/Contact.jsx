@@ -146,11 +146,13 @@ function Contact() {
                   border: '1px solid rgba(0, 0, 0, 0.08)',
                   borderTop: `4px solid ${info.color}`
                 }}
-                onClick={() => {
+                onClick={(e) => {
                   if (info.title === "Address") {
-                    handleLocationClick();
+                    handleLocationClick(e);
+                  } else if (info.title === "Phone") {
+                    handlePhoneClick(e);
                   } else {
-                    window.open(info.link, info.title === "Email" ? "_blank" : "_self");
+                    window.open(info.link, "_blank");
                   }
                 }}
                 onMouseEnter={(e) => {

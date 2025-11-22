@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCar, FaClock, FaCreditCard, FaMapMarkerAlt } from "react-icons/fa";
-import bannerimage3 from "../assets/images/cab.jpg";
+import rudraRideImage from "../assets/images/rudra.png";
 
 function AboutRudraRides() {
   const features = [
@@ -36,22 +36,57 @@ function AboutRudraRides() {
     }}>
       {/* HERO SECTION */}
       <section className="py-5" style={{
-        background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)',
+        background: 'linear-gradient(135deg, #0a1f44 0%, #052b64 30%, #1e3a8a 70%, #0a1f44 100%)',
         color: '#fff',
         position: 'relative',
         overflow: 'hidden',
         paddingTop: 'clamp(4rem, 10vw, 8rem)',
         paddingBottom: 'clamp(4rem, 10vw, 8rem)'
       }}>
+        {/* Animated Background Elements */}
         <div className="position-absolute" style={{
           top: 0,
           left: 0,
           right: 0,
           bottom: 0,
-          background: 'radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.15) 0%, transparent 50%)',
-          pointerEvents: 'none'
+          background: 'radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.25) 0%, transparent 50%)',
+          pointerEvents: 'none',
+          zIndex: 0
         }}></div>
-        <div className="container position-relative">
+        <div className="position-absolute" style={{
+          top: 0,
+          right: 0,
+          width: '50%',
+          height: '100%',
+          background: 'radial-gradient(circle at 80% 70%, rgba(0, 198, 255, 0.2) 0%, transparent 60%)',
+          pointerEvents: 'none',
+          zIndex: 0
+        }}></div>
+        <div className="position-absolute" style={{
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          width: '100%',
+          height: '100%',
+          background: 'radial-gradient(ellipse at center, rgba(59, 130, 246, 0.1) 0%, transparent 70%)',
+          pointerEvents: 'none',
+          zIndex: 0
+        }}></div>
+        {/* Grid Pattern Overlay */}
+        <div className="position-absolute" style={{
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: `
+            linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px',
+          pointerEvents: 'none',
+          zIndex: 0
+        }}></div>
+        <div className="container position-relative" style={{ zIndex: 1 }}>
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
               <span style={{
@@ -97,27 +132,57 @@ function AboutRudraRides() {
                 Coming Soon
               </button>
             </div>
-            <div className="col-lg-6 text-center position-relative">
+            <div className="col-lg-6 text-center position-relative" style={{ zIndex: 1 }}>
               <div className="position-relative" style={{ display: 'inline-block' }}>
+                {/* Glowing Background Effect */}
                 <div className="position-absolute" style={{
                   top: '50%',
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
-                  width: '120%',
-                  height: '120%',
-                  background: 'radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%)',
+                  width: '140%',
+                  height: '140%',
+                  background: 'radial-gradient(circle, rgba(59, 130, 246, 0.4) 0%, rgba(0, 198, 255, 0.2) 40%, transparent 70%)',
                   borderRadius: '50%',
-                  filter: 'blur(40px)',
+                  filter: 'blur(50px)',
+                  zIndex: 0,
+                  animation: 'pulse 3s ease-in-out infinite'
+                }}></div>
+                {/* Secondary Glow */}
+                <div className="position-absolute" style={{
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  width: '100%',
+                  height: '100%',
+                  background: 'radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 60%)',
+                  borderRadius: '50%',
+                  filter: 'blur(30px)',
                   zIndex: 0
                 }}></div>
-                <img src={bannerimage3} alt="Rudra Ride Car" className="img-fluid rounded position-relative" style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  boxShadow: '0 25px 50px rgba(0, 0, 0, 0.3)',
-                  transition: 'transform 0.5s ease',
-                  zIndex: 1,
-                  borderRadius: '16px'
-                }} />
+                {/* Image Container with Glass Effect */}
+                <div className="position-relative" style={{
+                  background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)',
+                  borderRadius: '20px',
+                  padding: '30px',
+                  backdropFilter: 'blur(10px)',
+                  border: '1px solid rgba(255, 255, 255, 0.2)',
+                  boxShadow: '0 20px 60px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
+                  zIndex: 1
+                }}>
+                  <img src={rudraRideImage} alt="Rudra Ride" className="img-fluid rounded position-relative" style={{
+                    maxWidth: '100%',
+                    height: 'auto',
+                    maxHeight: '500px',
+                    objectFit: 'contain',
+                    transition: 'transform 0.5s ease',
+                    zIndex: 2,
+                    borderRadius: '12px',
+                    filter: 'drop-shadow(0 10px 30px rgba(0, 0, 0, 0.4))'
+                  }}
+                  onMouseEnter={(e) => e.target.style.transform = 'scale(1.05)'}
+                  onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
+                  />
+                </div>
               </div>
             </div>
           </div>
